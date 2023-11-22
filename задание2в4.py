@@ -19,7 +19,7 @@ class Putevki:#новый класс Pytevki
         self.price = price#инициализируем параметры
 
     def __str__(self):#метод для возвращения строки
-        return f"Код путевки: {self.kod} Фамилия клиента: {self.surname} Название пансионата: {self.pension_name} Номер: {self.room_number} Вид жилья: {self.accommodation_type} Дата заезда: {self.check_in_date} Дата выезда: {self.check_out_date} Количество человек: {self.num_people} Цена: {self.price}"
+        return f"Код путевки: {self.kod} Фамилия клиента: {self.surname} Название пансионата: {self.pension_name} Номер: {self.room_number} Вид жилья: {self.life_type} Дата заезда: {self.zaezd_in_date} Дата выезда: {self.zaezd_out_date} Количество человек: {self.num_people} Цена: {self.price}"
 
 
 class ZarubezhnyePutevki(Putevki):#новый класс наследующий от transport
